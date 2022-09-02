@@ -22,7 +22,7 @@ fn main() -> Result<()> {
 
     // You can load and evaluate Lua code. The returned type of `Lua::load` is a builder
     // that allows you to change settings before running Lua code. Here, we are using it to set
-    // the name of the laoded chunk to "example code", which will be used when Lua error
+    // the name of the loaded chunk to "example code", which will be used when Lua error
     // messages are printed.
 
     lua.load(
